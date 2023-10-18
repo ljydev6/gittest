@@ -1,8 +1,9 @@
 package com.gittest.run;
 
+import com.gittest.controller.GitController;
+
 public class Main {
 	public static void main(String[] args) {
-		System.out.println("Hello! git!");
-		System.out.println("i'm dev branch.");
+		new GitController().test();
 	}
 }
